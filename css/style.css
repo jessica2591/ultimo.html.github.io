@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 98%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+header{
+    background: black url("../img/dos.webp") no-repeat center; 
+     /* background-color: black; */
+    /*background-image: url(../img/images.jpg);
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: 80% 100%; */
+   /* background-position: center;
+    */
+    background-size: 100% 100%;
+    text-align: center;
+    height: 20vh; 
+    
+}
+
+/* selector por pades he hijos */
+/* header > h1{ */
+    /* font-size: 40px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: bolder; */
+    /* font: normal 40px 'Grenze Gotisch', cursive;
+}  */
+
+/* selector por desendencia */
+
+header h1 {
+    font: normal 4vw 'Grenze Gotisch', cursive;
+    color:red;
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;/* don't forget to set a duration! */
+    
+}
+
+nav{
+    background-color: grey;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex; 
+    margin: 0.5% 0 0 0.5%;
+}
+nav li {
+
+    /* list-style: none; */
+    background-color: darkslategray;
+    padding: 5px;
+    border-radius:10px;
+    margin: 3px;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+nav li:hover{
+    background-color: white;
+    text-decoration: underline;
+}
+nav a:hover{
+color: black;
+}
+
+
+span{
+    font-weight: 900;
+    font-size: 30px;
+}
+main, aside,footer, nav,header{
+    border-radius: 10px;
+}
+main{
+    background-color: #b2bec3;
+    width: 75%;
+    margin: 0.5% 0.5% 0 0;
+}
+
+aside{
+    background-color:#b2bec3;
+    width: 25%;
+    margin: 0.5% 0 0 0;
+}
+
+.col-2{
+    display: flex;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-top: 0.5%;
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+}
+
+
+iframe{
+    width: 900px;
+    height: 350px;
+}
+
+article{
+    font-size: 2vw;
+    text-align: justify;
+    padding: 30px;
+}
+
+article h1{
+    font-size: 4vw;
+    color: blue;
+    font-family: 'Lobster', cursive;
+}
+article h2{
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: 'Pacifico', cursive;
+}
+article h1,h2{
+  text-align: center;
+}
+
+article img{
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin: auto;
+}
+article figure{
+    text-align: center;
+    
+}
+figure figcaption{
+    font-size: 1vw;
+}
+
+blockquote{
+    padding: 25px;
+    background-color: #636e72;
+    height: auto;
+    margin: 15px;
+    border-radius: 20px;
+    color: white;
+}
+blockquote p{
+    font-size: 1.5vw;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+blockquote h1{
+    font-size: 2vw;
+}
+
+@media(max-width:600px){
+    .col-2{
+        flex-direction: column;
+    }
+    aside,main{
+       width: 100%; 
+    }
+  
+}
+
+/* begin style gallery */
+
+.gallery-main{
+    background-color: #30336b;
+    width: 100%;
+    margin-top: 7px;
+}
+
+
+.row img{
+    border: 2px solid white;
+    display:block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    /* escade grises */
+    filter: grayscale(100%);
+}
+
+.row img:hover{
+    border: 5px solid white;
+    filter: grayscale(0);
+    transition: 2s ease-in-out;
+}
+
+/* divicion de pantalla */
+
+.col-4{
+    display: flex;
+}
+
+
+/* .col-4 img {
+    width: 25%;
+    margin: 10px;
+} */
+
+.col-4 .row{
+    width: 25%;
+    margin: 8px;    
+}
+
+.col-2 .row{
+    width: 50%;
+    margin: 8px;
+}
+.col-3{
+    display: flex;
+}
+
+.col-3 .row{
+    width: 33.33%;
+    margin: 8px;
+}
+
+
+.col-5{
+    display: flex;
+}
+
+.col-5 .row{
+    width: 20%;
+    margin: 8px;
+}
+
+
+
+
