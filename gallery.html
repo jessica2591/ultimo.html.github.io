@@ -1,140 +1,168 @@
 <!DOCTYPE html>
 <html lang="es-MX">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="shortcut icon" href="/img/gallery.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Lobster&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/pupup.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-<div class="container">
-    <header>
-        <h1>Gallery &#x2600;   </h1>
-        <!-- <p style="font-size: 4rem;">&#x1F30D; &#x1F411; &#x1F435; &#x1F470; &#x1F47B; &#x1F507; &#x1F52A; &#x1F52B; &#x1F6BF;</p> -->
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="gallery.html">Fotos</a></li>
-            <li><a href="ayuda.html">Ayuda</a></li>
-        </ul>
-    </nav>
-    <main class="gallery-main">
-        <div class="col-4">
-            <!-- <img src="img/images.jpg" alt="">
+    <div class="container">
+        <header>
+            <h1>Gallery &#x2600; </h1>
+            <!-- <p style="font-size: 4rem;">&#x1F30D; &#x1F411; &#x1F435; &#x1F470; &#x1F47B; &#x1F507; &#x1F52A; &#x1F52B; &#x1F6BF;</p> -->
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="gallery.html">Fotos</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+        </nav>
+        <main class="gallery-main fotos">
+            <div class="col-4">
+                <!-- <img src="img/images.jpg" alt="">
             <img src="img/images.jpg" alt="">
             <img src="img/images.jpg" alt="">
             <img src="img/images.jpg" alt=""> -->
-            <div class="row">
-                <img src="https://picsum.photos/400/200?random=1" alt="">
+                <div class="row thumb">
+                    <a href="https://picsum.photos/400/200?random=1">
+                        <img class="img-fluid img-thumbnail" src="https://picsum.photos/400/200?random=1" alt="">
+                    </a>
+                </div>
+                <div class="row thumb">
+                    <a href="https://picsum.photos/400/200?random=2">
+                        <img class="img-fluid img-thumbnail" src="https://picsum.photos/400/200?random=2" alt="">
+                    </a>
+                </div>
+                <div class="row thumb">
+                    <a href="https://picsum.photos/400/200?random=3">
+                        <img class="img-fluid img-thumbnail" src="https://picsum.photos/400/200?random=3" alt="">
+                    </a>
+                </div>
+                <div class="row thumb">
+                    <a href="https://picsum.photos/400/200?random=4">
+                        <img class="img-fluid img-thumbnail" src="https://picsum.photos/400/200?random=4" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="row">
-                <img src="https://picsum.photos/400/200?random=2" alt="">
-            </div>
-            <div class="row">
-                <img src="https://picsum.photos/400/200?random=3" alt="">
-            </div>
-            <div class="row">
-                <img src="https://picsum.photos/400/200?random=4" alt="">
-            </div>
-        </div>
 
-        <div class="col-2">
-            <div class="row">
-                <img src="https://picsum.photos/400/200?random=5" alt="">
-            </div>  
-            <div class="row">
-                <img src="https://picsum.photos/400/200?random=6" alt="">
+            <div class="col-2">
+                <div class="row thumb">
+                    <a href="https://picsum.photos/400/200?random=5">
+                        <img class="img-fluid img-thumbnail" src="https://picsum.photos/400/200?random=5" alt="">
+                    </a>
+                </div>
+                <div class="row thumb">
+                    <a href="https://picsum.photos/400/200?random=6">
+                        <img class="img-fluid img-thumbnail" src="https://picsum.photos/400/200?random=6" alt="">
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="col-5">
-            <div class="row"><img src="http://lorempixel.com/400/200/people/1/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/2/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/3/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/4/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/5/" alt=""></div>
-        </div>
-
-
-        <div class="col-3">
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/animals/1/" alt="">
-            </div>
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/animals/2/" alt="">
-            </div>
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/animals/3/" alt="">
-            </div>
-        </div>
 
 
-        <div class="col-4">
-            <!-- <img src="img/images.jpg" alt="">
+            <!-- la parte de abajo no esta usando pupup -->
+            <div class="col-5">
+                <div class="row"><img src="http://lorempixel.com/400/200/people/1/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/2/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/3/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/4/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/5/" alt=""></div>
+            </div>
+
+
+            <div class="col-3">
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/animals/1/" alt="">
+                </div>
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/animals/2/" alt="">
+                </div>
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/animals/3/" alt="">
+                </div>
+            </div>
+
+
+            <div class="col-4">
+                <!-- <img src="img/images.jpg" alt="">
             <img src="img/images.jpg" alt="">
             <img src="img/images.jpg" alt="">
             <img src="img/images.jpg" alt=""> -->
-            <div class="row">
-                <img src="https://picsum.photos/300/200?random=1" alt="">
+                <div class="row">
+                    <img src="https://picsum.photos/300/200?random=1" alt="">
+                </div>
+                <div class="row">
+                    <img src="https://picsum.photos/300/200?random=2" alt="">
+                </div>
+                <div class="row">
+                    <img src="https://picsum.photos/300/200?random=3" alt="">
+                </div>
+                <div class="row">
+                    <img src="https://picsum.photos/300/200?random=4" alt="">
+                </div>
             </div>
-            <div class="row">
-                <img src="https://picsum.photos/300/200?random=2" alt="">
+
+            <!-- division en dos  -->
+
+            <div class="col-2">
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/food/1/" alt="">
+                </div>
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/food/2/" alt="">
+                </div>
             </div>
-            <div class="row">
-                <img src="https://picsum.photos/300/200?random=3" alt="">
+
+
+            <div class="col-3">
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/animals/1/" alt="">
+                </div>
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/animals/2/" alt="">
+                </div>
+                <div class="row">
+                    <img src="http://lorempixel.com/400/200/animals/3/" alt="">
+                </div>
             </div>
-            <div class="row">
-                <img src="https://picsum.photos/300/200?random=4" alt="">
+
+
+
+            <div class="col-5">
+                <div class="row"><img src="http://lorempixel.com/400/200/people/1/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/2/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/3/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/4/" alt=""></div>
+                <div class="row"><img src="http://lorempixel.com/400/200/people/5/" alt=""></div>
             </div>
-        </div>
-
-        <!-- division en dos  -->
-
-        <div class="col-2">
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/food/1/" alt="">
-            </div>  
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/food/2/" alt="">
-            </div>
-        </div>
-
-
-        <div class="col-3">
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/animals/1/" alt="">
-            </div>
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/animals/2/" alt="">
-            </div>
-            <div class="row">
-                <img src="http://lorempixel.com/400/200/animals/3/" alt="">
-            </div>
-        </div>
-
-
-
-        <div class="col-5">
-            <div class="row"><img src="http://lorempixel.com/400/200/people/1/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/2/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/3/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/4/" alt=""></div>
-            <div class="row"><img src="http://lorempixel.com/400/200/people/5/" alt=""></div>
-        </div>
 
 
 
 
 
 
-    </main>
+        </main>
 
-</div>
+    </div>
 
 
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="/js/popup.js"></script>
+    <script src="/js/gallery.js"></script>
 </body>
+
 </html>

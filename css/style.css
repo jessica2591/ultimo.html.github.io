@@ -197,12 +197,15 @@ blockquote h1{
     height: auto;
     /* escade grises */
     filter: grayscale(100%);
+    /* transition: with 2s, height 2s, transform 2s; */
+
 }
 
 .row img:hover{
     border: 5px solid white;
     filter: grayscale(0);
     transition: 2s ease-in-out;
+    /* transform: rotate(360 deg); */
 }
 
 /* divicion de pantalla */
